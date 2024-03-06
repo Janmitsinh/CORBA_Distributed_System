@@ -1,0 +1,59 @@
+2024-02-29 02:11:41 AM  login attempt
+2024-02-29 02:11:41 AM  Admin Login successful
+2024-02-29 02:11:41 AM attempting to addAppointment
+2024-02-29 02:11:51 AM addAppointment | appointmentID: QUEA101024 appointmentType: Surgeon appointmentCapacity: 3  | Success:  Appointment added successfully
+2024-02-29 02:12:00 AM trying to Logout
+2024-02-29 02:43:42 AM  login attempt
+2024-02-29 02:43:42 AM  Admin Login successful
+2024-02-29 02:43:43 AM attempting to addAppointment
+2024-02-29 02:43:56 AM addAppointment | appointmentID: QUEA131024 appointmentType: Surgeon appointmentCapacity: 2  | Success:  Appointment added successfully
+2024-02-29 02:43:59 AM attempting to listAppointmentAvailability
+2024-02-29 02:44:01 AM listAppointmentAvailability | appointmentType: Surgeon  | QUEBEC Server Surgeon:
+QUEA131024: in the AFTERNOON of 13/10/2424 Total Available Capacity: 2 out of 2
+
+ 
+MONTREAL Server Surgeon:
+No Appointments of Type Surgeon
+___________________________
+SHERBROOK Server Surgeon:
+No Appointments of Type Surgeon
+___________________________
+
+2024-02-29 02:44:10 AM trying to Logout
+2024-02-29 02:48:19 AM  login attempt
+2024-02-29 02:48:19 AM  Admin Login successful
+2024-02-29 02:48:20 AM attempting to addAppointment
+2024-02-29 02:48:28 AM addAppointment | appointmentID: QUEM141024 appointmentType: Physician appointmentCapacity: 2  | Success:  Appointment added successfully
+2024-02-29 02:48:31 AM attempting to listAppointmentAvailability
+2024-02-29 02:48:33 AM listAppointmentAvailability | appointmentType: Physician  | QUEBEC Server Physician:
+QUEM141024: in the MORNING of 14/10/2424 Total Available Capacity: 2 out of 2
+
+ 
+MONTREAL Server Physician:
+MTLM101024: in the MORNING of 10/10/2424 Total Available Capacity: 2 out of 2
+
+___________________________
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+___________________________
+
+2024-02-29 02:48:41 AM trying to Logout
+2024-02-29 03:30:24 AM  login attempt
+2024-02-29 03:30:24 AM  Admin Login successful
+2024-02-29 03:30:26 AM attempting to addAppointment
+2024-02-29 03:30:38 AM addAppointment | appointmentID: QUEM151024 appointmentType: Physician appointmentCapacity: 2  | Success:  Appointment added successfully
+2024-02-29 03:30:41 AM attempting to listAppointmentAvailability
+2024-02-29 03:30:44 AM listAppointmentAvailability | appointmentType: Physician  | QUEBEC Server Physician:
+QUEM151024: in the MORNING of 15/10/2424 Total Available Capacity: 2 out of 2
+
+ 
+MONTREAL Server Physician:
+MTLM111024: in the MORNING of 11/10/2424 Total Available Capacity: 3 out of 3
+MTLM101024: in the MORNING of 10/10/2424 Total Available Capacity: 2 out of 2
+
+___________________________
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+___________________________
+
+2024-02-29 03:30:53 AM trying to Logout

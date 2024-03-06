@@ -1,0 +1,32 @@
+module HealthCareInterfaceApp
+{
+  interface HealthCareInterface
+  	{
+		 /* ADMIN methods */
+
+    	// Define addAppointment method
+        string addAppointment(in string appointmentID, in string appointmentType, in long capacity);
+
+		// Define removeAppointment method
+        string removeAppointment(in string appointmentID, in string appointmentType);
+
+		// Define listAppointmentAvailabilty method
+        string listAppointmentAvailability(in string appointmentType);
+
+       	/* ADMIN & patient methods */
+        
+        // Define bookAppointment method
+        string bookAppointment(in string patientID, in string appointmentID, in string appointmentType);
+
+		// Define getAppointmentSchedule method
+        string getAppointmentSchedule(in string patientID);
+
+		// Define cancelAppointment method
+        string cancelAppointment(in string patientID, in string appointmentID);
+
+		// Define swap Appointment method		
+        string swapAppointment(in string patientID, in string newAppointmentID, in string newAppointmentType, in string oldAppointmentID, in string oldAppointmentType);
+
+	    oneway void shutdown();
+    };
+};
